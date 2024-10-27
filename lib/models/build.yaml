@@ -1,0 +1,6 @@
+targets:
+  $default:
+    builders:
+      hive_generator|hive_builder:
+        options:
+          buildType: 'just-in-time'
